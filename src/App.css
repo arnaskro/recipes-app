@@ -1,0 +1,83 @@
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.RecipesListItem {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  top: 0;
+  opacity: .85;
+  transition: all .15s;
+  background: transparent;
+  border-radius: 2px;
+}
+
+.RecipesListItem:hover {
+  opacity: 1;
+  top: -10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, .1);
+  /* cursor: pointer; */
+}
+
+.RecipesListItem button:hover {
+  cursor: pointer;
+}
+
+.SelectedRecipe {
+  margin: 5vh 0;
+}
+
+.AddRecipeListItem span {
+  margin: 40px auto;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding: 5px 0;
+  font-size: 3em;
+  font-weight: 100;
+  line-height: 27px;
+  border-radius: 40px;
+  border: 1px solid #45474c;
+  opacity: 0.6;
+}
+
+.AddRecipeListItem {
+  opacity: 0.6;
+}
+.AddRecipeListItem:hover span {
+  opacity: 1;
+}
+
+.AddRecipeListItem .card {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: darkgrey;
+}
+
+.AddRecipeListItem:hover {
+  cursor: pointer;
+}
+
+.RecipesFilter {
+  text-align: center;
+  margin-top:5vh;
+}
+
+.RecipesFilter button:hover {
+  cursor: pointer;
+}

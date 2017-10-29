@@ -1,0 +1,30 @@
+[
+  {
+  "id": 0, 
+  "title": "Tender Italian Baked Chicken", 
+  "description": "Flavorful and moist baked chicken.!", 
+  "image": "http://images.media-allrecipes.com/userphotos/720x405/4536524.jpg",
+  "categories": [1, 2]
+  },
+  {
+  "id": 1, 
+  "title": "Apple Pie", 
+  "description": "This three-layer apple pie is a Southern favorite!", 
+  "image": "http://images.media-allrecipes.com/userphotos/720x405/4564517.jpg",
+  "categories": [0]
+  },
+  {
+  "id": 2, 
+  "title": "Perfect Pumpkin Cheesecake Bars", 
+  "description": "These pumpkin cheesecake bars are delicious and perfect for the fall holidays.", 
+  "image": "http://images.media-allrecipes.com/userphotos/720x405/4557511.jpg",
+  "categories": [0]
+  },
+  {
+  "id": 3, 
+  "title": "Garlic Prime Rib", 
+  "description": "Quick and easy marinade and so tasty!", 
+  "image": "http://images.media-allrecipes.com/userphotos/720x405/4396027.jpg",
+  "categories": [2]
+  }
+]
